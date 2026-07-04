@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract road travel image</title>
+  <desc id="desc">Curving road toward a coast and warm sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7caa2"/>
+      <stop offset="0.52" stop-color="#9ab7c7"/>
+      <stop offset="1" stop-color="#375f7f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="895" cy="190" r="86" fill="#fff1c7" opacity="0.9"/>
+  <path d="M0 610 C210 500 380 650 590 530 C765 430 920 500 1200 390 L1200 900 L0 900 Z" fill="#3d6951" opacity="0.95"/>
+  <path d="M0 700 C210 620 350 715 525 660 C730 595 925 670 1200 590 L1200 900 L0 900 Z" fill="#234231"/>
+  <path d="M350 900 C390 765 520 710 555 610 C585 520 535 470 590 380 C620 535 745 560 730 690 C718 795 840 835 920 900 Z" fill="#2f3032"/>
+  <path d="M604 468 C602 536 604 618 626 705 C644 778 694 838 740 900" fill="none" stroke="#fff4eb" stroke-width="10" stroke-linecap="round" stroke-dasharray="34 38" opacity="0.8"/>
+  <path d="M0 570 C190 500 340 560 485 505 C650 445 810 510 930 450 C1030 400 1120 380 1200 365 L1200 510 C1030 555 880 575 710 555 C510 532 410 610 230 610 C125 610 50 590 0 570 Z" fill="#f2efe9" opacity="0.62"/>
+</svg>

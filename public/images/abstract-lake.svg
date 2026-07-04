@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract lake travel image</title>
+  <desc id="desc">A calm lake with hills and a warm horizon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6e4e9"/>
+      <stop offset="0.62" stop-color="#f1d0b4"/>
+      <stop offset="1" stop-color="#bf7652"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="640" cy="245" r="92" fill="#fff4d9" opacity="0.84"/>
+  <path d="M0 530 C150 470 250 505 390 450 C560 382 720 500 890 420 C1010 365 1125 390 1200 370 L1200 900 L0 900 Z" fill="#3d6951"/>
+  <path d="M0 600 C190 550 350 605 520 555 C720 495 890 565 1200 500 L1200 900 L0 900 Z" fill="#375f7f" opacity="0.88"/>
+  <path d="M130 660 C285 620 380 670 530 640 C725 600 830 650 1060 610" fill="none" stroke="#fff4eb" stroke-width="16" stroke-linecap="round" opacity="0.35"/>
+  <path d="M260 745 C405 710 500 760 640 728 C810 690 930 735 1080 705" fill="none" stroke="#fff4eb" stroke-width="12" stroke-linecap="round" opacity="0.27"/>
+</svg>

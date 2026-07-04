@@ -1,0 +1,25 @@
+{
+  "title": "Our Travel Journal",
+  "shortTitle": "Travel Journal",
+  "tagline": "Stories, notes, and favorite places from the road.",
+  "description": "A personal travel journal with trip notes, photos, maps, and practical recommendations.",
+  "url": "https://example.com",
+  "travelers": "Your Names",
+  "homeEyebrow": "Personal travel archive",
+  "homeTitle": "A living record of where we have been and what we loved.",
+  "homeIntro": "Use this space for the short version of your travel story: who you are, how you travel, and what people will find here.",
+  "primaryCtaText": "Browse trips",
+  "primaryCtaHref": "/travels/",
+  "secondaryCtaText": "See the map",
+  "secondaryCtaHref": "/map/",
+  "about": [
+    "We built this site as a simple place to collect the stories, photos, routes, meals, stays, and small details that make each trip memorable.",
+    "It is intentionally low-maintenance: each trip is just one Markdown file, so adding a new adventure should feel as easy as writing a note.",
+    "Replace these paragraphs with your own introduction, travel philosophy, and anything you want friends or family to know before they browse."
+  ],
+  "social": {
+    "email": "hello@example.com",
+    "instagram": "",
+    "github": ""
+  }
+}

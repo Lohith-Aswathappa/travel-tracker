@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract mountain travel image</title>
+  <desc id="desc">Layered mountains, river, and soft sunrise colors.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cedfe8"/>
+      <stop offset="0.58" stop-color="#f4cfaa"/>
+      <stop offset="1" stop-color="#b5653b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="260" cy="190" r="90" fill="#fff4d9" opacity="0.92"/>
+  <path d="M0 590 L240 280 L430 520 L610 240 L860 595 Z" fill="#375f7f" opacity="0.94"/>
+  <path d="M330 620 L550 350 L690 535 L810 370 L1200 660 L1200 900 L0 900 L0 700 Z" fill="#263f55" opacity="0.92"/>
+  <path d="M240 280 L312 390 L205 365 Z M610 240 L690 360 L560 340 Z M550 350 L625 445 L515 425 Z" fill="#fff4eb" opacity="0.82"/>
+  <path d="M0 735 C170 675 315 740 470 680 C650 610 795 730 965 655 C1080 605 1150 630 1200 645 L1200 900 L0 900 Z" fill="#3d6951"/>
+  <path d="M490 900 C520 810 610 780 628 695 C640 635 595 590 606 540 C650 622 735 655 710 735 C685 820 760 845 810 900 Z" fill="#f4e7dc" opacity="0.74"/>
+</svg>
