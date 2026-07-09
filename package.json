@@ -1,13 +1,13 @@
 {
-  "name": "travel-journal-static",
-  "version": "1.0.0",
+  "name": "adventure-atlas-apple",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
-    "dev": "node scripts/dev.mjs"
+    "build": "node src/build.mjs",
+    "dev": "npm run build && npx serve dist -l 4321"
   },
-  "engines": {
-    "node": ">=20"
+  "devDependencies": {
+    "serve": "latest"
   }
 }

@@ -1,124 +1,86 @@
-# Travel Journal Static Site
+# Adventure Atlas
 
-A complete starter website for a personal travel journal. It is a static site with no runtime backend and no npm dependencies. Content lives in Markdown files, the build script generates HTML into `dist/`, and Cloudflare Pages can deploy it from GitHub.
+A polished, Apple-inspired static personal travel/adventure website for Cloudflare Pages.
 
-## What is included
+## What it includes
 
-- Responsive home page
-- Travels index with client-side search
-- Individual trip pages generated from Markdown
-- Lightweight map generated from trip coordinates
+- Home page with hero, stats, latest adventures, and map preview
+- Adventures archive with instant filtering
+- Individual adventure pages generated from Markdown
+- Map page powered by coordinates in Markdown
+- Timeline page
 - Gallery page
-- About page
-- RSS feed, sitemap, robots.txt, 404 page
-- Dark mode toggle
-- Cloudflare `_headers` file
-- Sample placeholder SVG images
+- Memories page with Surprise Me
+- Search modal with keyboard shortcut `Cmd/Ctrl + K`
+- Light/dark mode
+- RSS feed, sitemap, 404 page, Cloudflare `_headers`
+- No database, no paid APIs, no backend
 
-## Folder structure
+## Edit your site details
 
-```text
-content/
-  site.json              Site title, intro copy, domain, and contact links
-  trips/                 One Markdown file per trip
-public/
-  assets/                CSS and JavaScript
-  images/                Photos and placeholder images
-scripts/
-  build.mjs              Static site generator
-  dev.mjs                Local preview server
-dist/                    Generated output after `npm run build`
+Open:
+
+```txt
+content/site.json
 ```
 
-## First edits to make
+Update the title, names, domain, tagline, and next adventure.
 
-1. Open `content/site.json`.
-2. Replace `title`, `shortTitle`, `travelers`, `description`, and `url`.
-3. Set `url` to your real domain, for example:
+## Add a new adventure
 
-```json
-"url": "https://yourdomain.com"
+Create a Markdown file in:
+
+```txt
+content/adventures/
 ```
 
-4. Edit or delete the sample trip files in `content/trips/`.
-5. Replace the placeholder SVGs in `public/images/` with your own photos.
-
-## Add a new trip
-
-Copy one of the existing files in `content/trips/`, rename it, and update the JSON block at the top.
+Example:
 
 ```md
 ---
-{
-  "title": "Portugal 2026",
-  "slug": "portugal-2026",
-  "subtitle": "Lisbon, Porto, coastal walks, and too many pastries.",
-  "excerpt": "A short description used on cards and metadata.",
-  "startDate": "2026-06-01",
-  "endDate": "2026-06-12",
-  "status": "planned",
-  "featured": false,
-  "cover": "/images/portugal/cover.jpg",
-  "countries": ["Portugal"],
-  "cities": ["Lisbon", "Porto"],
-  "tags": ["food", "coast", "trains"],
-  "favoriteFood": "Pastel de nata",
-  "favoriteMoment": "Sunset over the river.",
-  "coordinates": [
-    { "name": "Lisbon", "lat": 38.7223, "lon": -9.1393 },
-    { "name": "Porto", "lat": 41.1579, "lon": -8.6291 }
-  ]
-}
+title: Discovery Park Sunset Walk
+date: 2026-07-19
+type: city
+city: Seattle
+region: Washington
+country: USA
+lat: 47.6573
+lng: -122.4057
+rating: 5
+distance: 3.2 mi
+duration: 1h 40m
+cover: /images/discovery-park/cover.webp
+tags: city, sunset, park, weekend
+favorite: The lighthouse view near golden hour.
+photos: /images/discovery-park/cover.webp, /images/discovery-park/trail.webp
 ---
-
-## Overview
-
-Write your trip story here.
+Write your story here.
 ```
 
-The frontmatter must be valid JSON. That means double quotes around keys and strings, no trailing commas, and arrays using square brackets.
+Put images in `public/images/` and reference them with paths starting with `/images/...`.
 
 ## Local preview
-
-You only need Node.js 20 or newer.
 
 ```bash
 npm run build
 npm run dev
 ```
 
-Open `http://localhost:4321`.
+Open:
 
-The dev server does not hot reload. After edits, stop it with Ctrl+C and run `npm run dev` again.
-
-## Deploy to GitHub and Cloudflare Pages
-
-From this folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial travel site"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
-git push -u origin main
+```txt
+http://localhost:4321
 ```
 
-Then in Cloudflare:
+## Deploy to Cloudflare Pages
 
-1. Go to **Workers & Pages**.
-2. Create a Pages project from your GitHub repo.
-3. Use these build settings:
-   - Build command: `npm run build`
-   - Build output directory: `dist`
-   - Root directory: leave blank unless this site is inside a subfolder
-4. Deploy.
-5. Add your custom domain from the Pages project's custom domains area.
+Use these settings:
 
-## Optional improvements later
+```txt
+Framework preset: None
+Build command: npm run build
+Build output directory: dist
+Root directory: /
+```
 
-- Move to Astro when you want components and ecosystem integrations.
-- Add a real map with Mapbox or Leaflet.
-- Add photo albums by trip.
-- Add comments with Giscus.
-- Add privacy-friendly analytics with Cloudflare Web Analytics or Plausible.
+Every push to GitHub will rebuild the static site.

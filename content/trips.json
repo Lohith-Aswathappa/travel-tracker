@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "half-dome", "title": "Above Yosemite", "place": "Half Dome", "region": "Yosemite, California", "country": "United States", "date": "2025-09-14", "type": "Trail",
+    "lat": 37.7459, "lng": -119.5332, "cover": 2,
+    "dek": "A long day on granite, measured in switchbacks, cables, and one unforgettable view.",
+    "story": ["Some days begin before sunrise and keep unfolding long after you think your legs have nothing left. Half Dome was one of those days.", "The trail moved from cool forest to open granite, every turn revealing a little more of Yosemite. At the top, the scale of the valley made the long climb feel briefly weightless."]
+  },
+  {
+    "slug": "leavitt-peak", "title": "High Sierra Quiet", "place": "Leavitt Peak", "region": "Mono County, California", "country": "United States", "date": "2025-08-17", "type": "Trail",
+    "lat": 38.2863, "lng": -119.6513, "cover": 1,
+    "dek": "Thin air, wide horizons, and a trail that left the noise far below.",
+    "story": ["Leavitt Peak felt spacious from the beginning. The higher we climbed, the quieter everything became.", "This is the kind of day we built Adventure Atlas to hold onto: simple, demanding, and beautiful in a way photographs can only partly explain."]
+  },
+  {
+    "slug": "pinecrest", "title": "A Weekend by the Water", "place": "Pinecrest", "region": "Sierra Nevada, California", "country": "United States", "date": "2025-07-20", "type": "Escape",
+    "lat": 38.1888, "lng": -119.9908, "cover": 4,
+    "dek": "Lake light, pine air, and the unhurried rhythm of a Sierra weekend.",
+    "story": ["Pinecrest asked very little of us: walk by the water, look up through the trees, and let the afternoon take its time.", "We came home with the pleasant tiredness of a weekend spent mostly outside and a camera roll full of quiet scenes."]
+  },
+  {
+    "slug": "san-francisco", "title": "The City in Soft Light", "place": "San Francisco", "region": "California", "country": "United States", "date": "2025-05-25", "type": "City",
+    "lat": 37.7749, "lng": -122.4194, "cover": 3,
+    "dek": "Familiar streets, steep hills, and a city that changes with every layer of fog.",
+    "story": ["San Francisco is close enough to feel familiar and strange enough to keep surprising us.", "We followed the light through the city without much of a plan—the best way, we have learned, to notice what is right in front of us."]
+  },
+  {
+    "slug": "puerto-rico", "title": "Island Days", "place": "Puerto Rico", "region": "Caribbean", "country": "Puerto Rico", "date": "2024-12-18", "type": "Journey",
+    "lat": 18.2208, "lng": -66.5901, "cover": 9,
+    "dek": "Salt air, vivid streets, and days that seemed to hold twice as much sunlight.",
+    "story": ["Puerto Rico arrived in color: blue water, green hills, painted streets, and warm evenings that seemed reluctant to end.", "We moved between coast and city, letting each day find its own pace. The island made an easy case for staying longer."]
+  },
+  {
+    "slug": "new-york", "title": "New York, Frame by Frame", "place": "New York City", "region": "New York", "country": "United States", "date": "2024-10-12", "type": "City",
+    "lat": 40.7128, "lng": -74.006, "cover": 5,
+    "dek": "A few fast days inside a city that never offers the same photograph twice.",
+    "story": ["New York rewards attention. A reflection, a corner, or a passing face can become the whole story for a moment.", "We walked until our routes tangled together, collecting fragments of the city rather than trying to see everything."]
+  },
+  {
+    "slug": "death-valley", "title": "Where the Desert Opens", "place": "Death Valley", "region": "California", "country": "United States", "date": "2024-03-23", "type": "Road Trip",
+    "lat": 36.5323, "lng": -116.9325, "cover": 12,
+    "dek": "Long roads and immense silence across one of California's most otherworldly landscapes.",
+    "story": ["Death Valley rearranges your sense of distance. Roads disappear toward mountains that never seem to get closer.", "We stopped often, drawn by shifting color and scale. In the evening, the heat softened and the desert felt almost impossibly still."]
+  }
+]
