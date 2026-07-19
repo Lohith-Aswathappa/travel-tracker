@@ -1,5 +1,11 @@
 [
   {
+    "slug": "mission-peak", "title": "Blue Sky at the Summit", "place": "Mission Peak", "region": "Fremont, California", "country": "United States", "date": "2026-07-18", "type": "Trail",
+    "lat": 37.5133, "lng": -121.8808, "cover": 1,
+    "dek": "A bright summer climb to the Mission Peak pole, with the Bay stretching out below.",
+    "story": ["Mission Peak was all sun, open sky, and steady uphill work. The trail kept asking for a little more, and the summit made the answer easy.", "At the top, the view opened across the Bay and the famous pole became the day's marker: tired legs, dusty shoes, and a blue-sky memory worth keeping."]
+  },
+  {
     "slug": "half-dome", "title": "Above Yosemite", "place": "Half Dome", "region": "Yosemite, California", "country": "United States", "date": "2025-09-14", "type": "Trail",
     "lat": 37.7459, "lng": -119.5332, "cover": 2,
     "dek": "A long day on granite, measured in switchbacks, cables, and one unforgettable view.",
